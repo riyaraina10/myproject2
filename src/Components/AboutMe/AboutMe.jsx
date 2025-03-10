@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutMe.css";
+import ayushi from "../../images/ayushi.jpeg";
 
 function AboutMe() {
     return (
@@ -8,18 +9,30 @@ function AboutMe() {
             <div className="about-content">
                 <div className="about-text">
                     <p>
-                        Hello! I'm a web developer specializing in React
-                        applications. I enjoy creating responsive, user-friendly
-                        interfaces and solving complex problems.
+                        Hi, I'm Ayushi a UX/UI designer with 4+ years of
+                        experience crafting impactful digital products for
+                        B2B/B2C SaaS in fintech, Telecom, and more specialising
+                        in UX research, UI design. I help businesses bring their
+                        ideas to life by transforming complex problems into
+                        intuitive, user-friendly solutions.
                     </p>
                     <p>
-                        I have experience working with various front-end
-                        technologies and am always eager to learn more.
+                        I’m passionate about design exploration, tech
+                        innovation, and crafting user-centered experiences that
+                        make a difference. When I’m not designing, you’ll likely
+                        find me brainstorming new ideas or enjoying a good cup
+                        of chai. ☕
                     </p>
                 </div>
                 <div className="about-image">
                     {/* This would be your profile image */}
-                    <div className="profile-placeholder">Profile Image</div>
+                    <div className="profile-placeholder">
+                        <img
+                            src={ayushi}
+                            alt="Ayushi - UX/UI Designer"
+                            className="profile-image"
+                        />
+                    </div>
                 </div>
             </div>
         </section>

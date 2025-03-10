@@ -3,11 +3,10 @@ import "./ProjectCard.css";
 
 function ProjectCard(props) {
     // Destructuring props
-    const { title, description, imgPlaceholder } = props;
+    const { title, description } = props;
 
     return (
         <div className="project-card">
-            <div className="project-image">{imgPlaceholder}</div>
             <div className="project-info">
                 <h3 className="project-title">{title}</h3>
                 <p className="project-description">{description}</p>

@@ -12,21 +12,19 @@ function Projects() {
     const projectsData = [
         {
             id: 1,
-            title: "E-commerce Website",
-            description: "A responsive online store built with React",
-            imgPlaceholder: "E-commerce Preview",
+            title: "Designing JioOne Pay Simplifying Payments,Empowering Merchants",
+            description:
+                "a merchant onboarding portal that simplifies the integration of payment gateway services.",
         },
         {
             id: 2,
             title: "Weather App",
             description: "An application to check weather forecasts",
-            imgPlaceholder: "Weather App Preview",
         },
         {
             id: 3,
             title: "Task Manager",
             description: "A tool to organize and track your daily tasks",
-            imgPlaceholder: "Task Manager Preview",
         },
     ];
 
@@ -38,7 +36,6 @@ function Projects() {
                 <ProjectCard
                     title={projectsData[0].title}
                     description={projectsData[0].description}
-                    imgPlaceholder={projectsData[0].imgPlaceholder}
                     onButtonClick={() =>
                         handleProjectClick(projectsData[0].title)
                     }
@@ -46,7 +43,6 @@ function Projects() {
                 <ProjectCard
                     title={projectsData[1].title}
                     description={projectsData[1].description}
-                    imgPlaceholder={projectsData[1].imgPlaceholder}
                     onButtonClick={() =>
                         handleProjectClick(projectsData[1].title)
                     }
@@ -54,7 +50,6 @@ function Projects() {
                 <ProjectCard
                     title={projectsData[2].title}
                     description={projectsData[2].description}
-                    imgPlaceholder={projectsData[2].imgPlaceholder}
                     onButtonClick={() =>
                         handleProjectClick(projectsData[2].title)
                     }
